@@ -1,20 +1,43 @@
-PlotSquared Official Repo
-==========================================================
-PlotSquared - Plot Plugin Extraordinaire.
+# PlotSquared [![forthebadge](http://forthebadge.com/images/badges/built-by-developers.svg)](http://forthebadge.com)
 
-## Compile: ##
-Build the project using your favourite compiler (maven is the recommended way to build), then package the jar using `mvn package` **MAVEN IS REQUIRED TO BUILD AND PACKAGE THE JAR**
+[![Join the chat at https://gitter.im/PlotSquared/Lobby](https://badges.gitter.im/PlotSquared/Lobby.svg)](https://gitter.im/PlotSquared/Lobby?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)
+For the end user, PlotSquared is packed with a tonne of cool features.
+It allows you to merge plots, and build together with your friends. 
+You can also change a lot of plot specific settings in the form of
+flags. Such as: weather, time, gamemodes, pvp status. 
 
-## API: ##
-The main API class can be found [here](https://github.com/IntellectualCrafters/PlotSquared/blob/master/PlotSquared/src/main/java/com/intellectualcrafters/plot/api/PlotAPI.java "API"). JavaDoc's can be found [here](http://ci.nixium.com/job/PlotSquared/javadoc/ "JDOCS").
+Whilst we provide a whole load of unique features, the biggest focus
+is to provide a lag-free and smooth experience.
 
-## Links: ##
+## Links
 
-- [Spigot Page](http://www.spigotmc.org/resources/plotsquared.1177/ "SpigotMc")
-- [Bukkit Page](http://dev.bukkit.org/bukkit-plugins/plotsquared/ "Bukkit")
+### Server Owner
+* [Spigot Page](https://www.spigotmc.org/resources/plotsquared.1177/)
+* [WebChat/IRC]: #IntellectualCrafters on irc.esper.net
+* [Wiki](https://github.com/intellectualcrafters/plotsquared/wiki)
+* [Website](http://plotsquared.com)
 
-## Addons ##
-- [Plot2Dynmap](http://www.spigotmc.org/resources/plot2dynmap.1292/ "Plot2Dynmap")
-- [AdvPlots](http://www.spigotmc.org/resources/advplots-%CE%B2.1500/ "AdvPlots")
-- [PlotRankup](http://www.spigotmc.org/resources/plotrankup.1571/ "PlotRankup")
+### Developer Resources
+* [JavaDocs]  Link Temporarily Unavailable 
+* [Build Server] [![Build Status](http://ci.plotsquared.com/buildStatus/icon?job=PlotSquared)](http://ci.athion.net/job/PlotSquared/)
+* [Maven Repo] Link Temporarily Unavailable 
 
+# Building
+Gradle is the **recommended** way to build the project. Use `./gradlew build` in the main project directory to build the project. Gradle is required if you intend to build or develop the Sponge module.
+If you prefer to use maven, a `pom.xml` file is provided for working with the Bukkit part of the plugin.
+
+# Contributing
+Feel free to contribute, if you feel like you can improve the plugin in any way. Make sure to test your code before sending it away from us, as committing broken code will block you from future contribution.
+
+# Official Addons
+* [Plot2Dynmap](http://www.spigotmc.org/resources/plot2dynmap.1292/)
+* [AdvPlots](http://www.spigotmc.org/resources/advplots-%CE%B2.1500/)
+* [PlotRankup](http://www.spigotmc.org/resources/plotrankup.1571/)
+* [PlotZSux](https://www.spigotmc.org/resources/plotzsux.9563/)
+* [IslandPlots](https://www.spigotmc.org/resources/islandplots.9421/)
+* [BiomeGenerator](https://www.spigotmc.org/resources/biomegenerator.1663/)
+* [PlotSquaredMG](https://www.spigotmc.org/resources/plotsquaredmg.8025/)
+* [BasicPlots](https://www.spigotmc.org/resources/basicplots.6901/)
+* [HoloPlots](https://www.spigotmc.org/resources/holoplots.4880/)
+
+[WebChat/IRC]: http://webchat.esper.net/?nick=&channels=IntellectualCrafters&fg_color=000&fg_sec_color=000&bg_color=FFF
